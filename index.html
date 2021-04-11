@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css\estilo.css">
+  </head>
+  <body>
+<div id="titulo">
+  <h1>Bienvenido a la Veterinaria</h1>
+</div>
+<div>
+  <p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+</div>
+<div id="formulario">
+  <form  action="https://formspree.io/f/farina.fernando85@gmail.com" method="POST">
+    <h2>Ingrese los siguientes datos</h2>
+    <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+      <br>
+      <label for="edad">Edad</label>
+        <input type="number" id= "edad" name="edad" placeholder="Edad">
+        <br>
+      <label for="color">Color</label>
+          <input type="color" id="color" name="color" placeholder="color" value="#ff0000">
+          <br>
+          <label for="radio">Elija el género:
+            <input type="radio" name="radio" value="Macho">
+            <input type="radio" name="radio" value="Hembra">
+            </label>
+          <br>
+          <label for="tipo_mascota">Tipo de mascota</label>
+          <select name="tipo_mascota">
+            <option value="dog">Perro</option>
+            <option value="cat">Gato</option>
+            <option value="bird">Pájaro</option>
+          </select>
+          <br>
+          <textarea name="campo_libre" rows="8" cols="80" placeholder="Ingrese su comentario aquí"></textarea>
+          <br>
+          <label for="mail">Mail</label>
+            <input type="mail" id="mail" name="mail" placeholder="Correo electrónico">
+            <br>
+          <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+          <br>
+          <label for="bases_y_condiciones">Acepto las bases y condiciones</label>
+            <input type="checkbox" name="bases_y_condiciones" value="acepta">
+          <br>
+        <input type="submit" name="enviar" value="enviar">
+</form>
+</div>
+  </body>
+</html>

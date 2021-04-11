@@ -1,0 +1,18 @@
+h1{
+  font-style: "Verdana";
+  font-size: 35;
+}
+
+p{
+  font-size: sans-serif;
+}
+
+#titulo{
+  background: red;
+}
+
+
+#formulario{
+  background: lime;
+  font-style: italic;
+}
